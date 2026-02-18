@@ -82,7 +82,7 @@ export default async function handler(req, res) {
         // GitHub API için gerekli bilgiler
         const GITHUB_TOKEN = process.env.GITHUB_TOKEN; // Vercel environment variable
         const REPO_OWNER = 'mustafasacar35';
-        const REPO_NAME = 'lipodem-takip-paneli';
+        const REPO_NAME = 'lipodem-takip-paneli-1';
         
         // patientId formatını düzelt (patient_ öneki yoksa ekle)
         let finalPatientId = patientId;
