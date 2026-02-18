@@ -1,0 +1,116 @@
+{
+  "hafta": {},
+  "tarih": {
+    "2026-02-23": [
+      {
+        "name": "balkabagi_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/balkabagi_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "tavuklu_domates_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/tavuklu_domates_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "pazi_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/pazi_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "ketojenik_brokoli_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/ketojenik_brokoli_corbasi.jpg",
+        "type": "tarif"
+      }
+    ],
+    "2026-03-02": [
+      {
+        "name": "tavuk_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/tavuk_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "kozlenmis_kirmizi_biber_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/kozlenmis_kirmizi_biber_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "kiymali_mantar_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/kiymali_mantar_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "kabak_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/kabak_corbasi.jpg",
+        "type": "tarif"
+      }
+    ],
+    "2026-03-09": [
+      {
+        "name": "sebze_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/sebze_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "etli_karnabahar_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/etli_karnabahar_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "domates_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/domates_corbasi.jpg",
+        "type": "tarif"
+      }
+    ],
+    "2026-03-16": [
+      {
+        "name": "yogurtlu_kofte_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/yogurtlu_kofte_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "cedar_peynirli_brokoli_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/cedar_peynirli_brokoli_corbasi.jpg",
+        "type": "tarif"
+      },
+      {
+        "name": "domatesli_kabak_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/domatesli_kabak_corbasi.jpg",
+        "type": "tarif"
+      }
+    ],
+    "2026-02-18": [
+      {
+        "name": "Ramaz___cedar_peynirli_brokoli_corbasi.jpg",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/tarifler/cedar_peynirli_brokoli_corbasi.jpg",
+        "type": "tarif",
+        "addedAt": "2026-02-17T20:16:49.491Z"
+      },
+      {
+        "name": "unnamed__8_.png",
+        "url": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/fix_kartlar%20/%20unnamed__8_.png",
+        "type": "upload",
+        "addedAt": "2026-02-17T20:45:10.894Z"
+      }
+    ]
+  },
+  "settings": {
+    "prefixes": [
+      "EK_",
+      "RAMAZANN__",
+      "deneme2",
+      "deneme_1"
+    ],
+    "contextPrefixes": {
+      "tarih_2026-02-18": {
+        "tarif": "deneme_1",
+        "upload": "deneme2"
+      },
+      "hafta_2026-02-18": "Ramaz___",
+      "hafta_1": {
+        "tarif": "RAMAZANN__",
+        "upload": "deneme2"
+      }
+    }
+  }
+}

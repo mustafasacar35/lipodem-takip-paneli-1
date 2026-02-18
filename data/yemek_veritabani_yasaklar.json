@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "sonGuncelleme": "2025-12-05T12:30:49.086Z",
+  "yasaklar": {
+    "tavuk sote": {
+      "eklemeTarihi": "2025-11-12T08:44:32.985Z",
+      "orijinalMetin": "tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı)",
+      "yasaklananYemekler": [
+        "Beyaz Lahanalı Tavuk Sote"
+      ]
+    },
+    "tavuksote150grtavukfleto1adetortaboydomates1adetyesilbiber1yemekkasigizeytinyagi": {
+      "orijinalMetin": "tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı)",
+      "yasakliYemekler": [
+        "kurşun geçirmez kahve"
+      ],
+      "eklemeTarihi": "2025-11-21T21:05:48.120Z",
+      "neden": "\"tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı)\" bu yemeklerle eşleşmemeli"
+    },
+    "ceviz": {
+      "orijinalMetin": "ceviz (3 adet)",
+      "yasaklananYemekler": [
+        "Cevizli biber yoğurtlaması"
+      ],
+      "eklemeTarihi": "2025-12-05T12:30:49.086Z"
+    }
+  }
+}
