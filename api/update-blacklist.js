@@ -39,7 +39,7 @@ export default async function handler(req, res) {
         // GitHub API bilgileri
         const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
         const GITHUB_OWNER = 'mustafasacar35';
-        const GITHUB_REPO = 'lipodem-takip-paneli';
+        const GITHUB_REPO = 'lipodem-takip-paneli-1';
         const GITHUB_BRANCH = 'main';
         const FILE_PATH = 'data/alternative_blacklist.json';
 
@@ -58,7 +58,7 @@ export default async function handler(req, res) {
             headers: {
                 'Authorization': `token ${GITHUB_TOKEN}`,
                 'Accept': 'application/vnd.github.v3+json',
-                'User-Agent': 'Lipodem-Takip-Paneli'
+                'User-Agent': 'Lipodem-Takip-Paneli-1'
             }
         });
 
