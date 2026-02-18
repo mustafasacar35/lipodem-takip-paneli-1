@@ -576,7 +576,7 @@
     <script src="settings/admins.js"></script>
     <script>
         // Remote admins.js with hard cache-busting, loaded synchronously to preserve order
-        document.write('<script src="https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/settings/admins.js?t=' + Date.now() + '"><\\/scr' + 'ipt>');
+        document.write('<script src="https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-1/main/settings/admins.js?t=' + Date.now() + '"><\\/scr' + 'ipt>');
     </script>
     <!-- Patient auth (for patientAdmins support when served over http/https) -->
     <script src="auth.js"></script>
@@ -603,13 +603,13 @@
                     },
                     async loadPatientIndex() {
                         const ts = Date.now();
-                        const response = await fetch(`https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/hastalar/index.json?t=${ts}`, { cache: 'no-store' });
+                        const response = await fetch(`https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-1/main/hastalar/index.json?t=${ts}`, { cache: 'no-store' });
                         if (response.ok) return await response.json();
                         throw new Error('Patient index not found');
                     },
                     async loadPatientDetails(patientId) {
                         const ts = Date.now();
-                        const response = await fetch(`https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/hastalar/${patientId}.json?t=${ts}`, { cache: 'no-store' });
+                        const response = await fetch(`https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-1/main/hastalar/${patientId}.json?t=${ts}`, { cache: 'no-store' });
                         if (response.ok) return await response.json();
                         throw new Error('Patient details not found');
                     },
@@ -662,7 +662,7 @@
         const CONFIG = {
             get token() { return document.getElementById('githubToken')?.value || ''; },
             get owner() { return document.getElementById('githubOwner')?.value || 'mustafasacar35'; },
-            get repo() { return document.getElementById('githubRepo')?.value || 'lipodem-takip-paneli'; },
+            get repo() { return document.getElementById('githubRepo')?.value || 'lipodem-takip-paneli-1'; },
             branch: 'main'
         };
 
@@ -769,8 +769,8 @@
             <input 
                 type="text" 
                 id="githubRepo" 
-                placeholder="Repo Adı (örn: lipodem-takip-paneli)" 
-                value="lipodem-takip-paneli"
+                placeholder="Repo Adı (örn: lipodem-takip-paneli-1)" 
+                value="lipodem-takip-paneli-1"
             >
         </div>
 
@@ -1862,20 +1862,20 @@
                 const CACHE_NAME = 'admin-patients-v1';
                 const manifest = {
                     "short_name": "Hasta Yönetimi",
-                    "name": "Hasta Yönetimi Paneli",
+                    "name": "Hasta Yönetimi paneli",
                     "start_url": ".",
                     "display": "standalone",
                     "background_color": "#667eea",
                     "theme_color": "#764ba2",
                     "icons": [
                         {
-                            "src": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/logo.png",
+                            "src": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-1/main/logo.png",
                             "sizes": "192x192",
                             "type": "image/png",
                             "purpose": "any maskable"
                         },
                         {
-                            "src": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli/main/logo.png",
+                            "src": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-1/main/logo.png",
                             "sizes": "512x512",
                             "type": "image/png",
                             "purpose": "any maskable"
@@ -1966,7 +1966,7 @@
         function showInstallPrompt() {
             if (!deferredPrompt) return;
             
-            const installBtn = confirm('📱 Hasta Yönetim Panelini telefonunuza yüklemek ister misiniz?\n\n✓ Ana ekranınıza eklenecek\n✓ Uygulama gibi çalışacak\n✓ Daha hızlı erişim');
+            const installBtn = confirm('📱 Hasta Yönetim panelini telefonunuza yüklemek ister misiniz?\n\n✓ Ana ekranınıza eklenecek\n✓ Uygulama gibi çalışacak\n✓ Daha hızlı erişim');
             
             if (installBtn) {
                 deferredPrompt.prompt();
